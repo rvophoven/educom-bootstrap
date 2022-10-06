@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  </head>
+  <body>
+    <form class="form-horizontal">
+      <fieldset>
+      
+      <!-- Form Name -->
+      <legend>Complaint contact form</legend>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="firsteName">First name</label>  
+        <div class="col-md-4">
+        <input id="firsteName" name="firsteName" type="text" placeholder="" class="form-control input-md" required="">
+          
+        </div>
+      </div>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="lastName">Last name</label>  
+        <div class="col-md-4">
+        <input id="lastName" name="lastName" type="text" placeholder="" class="form-control input-md" required="">
+          
+        </div>
+      </div>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="age">Age</label>  
+        <div class="col-md-4">
+        <input id="age" name="age" type="text" placeholder="" class="form-control input-md">
+          
+        </div>
+      </div>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="socialSecurityNumber">Social security number</label>  
+        <div class="col-md-4">
+        <input id="socialSecurityNumber" name="socialSecurityNumber" type="text" placeholder="" class="form-control input-md" required="">
+        <span class="help-block">help what is this</span>  
+        </div>
+      </div>
+      
+      <!-- Multiple Radios -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="chooseSex">Sex</label>
+        <div class="col-md-4">
+        <div class="radio">
+          <label for="chooseSex-0">
+            <input type="radio" name="chooseSex" id="chooseSex-0" value="1" checked="checked">
+            Male
+          </label>
+        </div>
+        <div class="radio">
+          <label for="chooseSex-1">
+            <input type="radio" name="chooseSex" id="chooseSex-1" value="2">
+            Female
+          </label>
+        </div>
+        </div>
+      </div>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="email">Email</label>  
+        <div class="col-md-4">
+        <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+          
+        </div>
+      </div>
+      
+      <!-- Button Drop Down -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="buttondropdown">Chose type complaint</label>
+        <div class="col-md-4">
+          <div class="input-group">
+            <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="" type="text">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Types
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="#">Error</a></li>
+                <li><a href="#">Not working</a></li>
+                <li><a href="#">I installed a virus</a></li>
+                <li><a href="#">Something</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Multiple Radios (inline) -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="radios">How angry are you?</label>
+        <div class="col-md-4"> 
+          <label class="radio-inline" for="radios-0">
+            <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+            :-)
+          </label> 
+          <label class="radio-inline" for="radios-1">
+            <input type="radio" name="radios" id="radios-1" value="2">
+            :-/
+          </label> 
+          <label class="radio-inline" for="radios-2">
+            <input type="radio" name="radios" id="radios-2" value="3">
+            :-|
+          </label> 
+          <label class="radio-inline" for="radios-3">
+            <input type="radio" name="radios" id="radios-3" value="4">
+            :-\
+          </label> 
+          <label class="radio-inline" for="radios-4">
+            <input type="radio" name="radios" id="radios-4" value="5">
+            :-(
+          </label>
+        </div>
+      </div>
+      
+      <!-- File Button --> 
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="filebutton">Complaint</label>
+        <div class="col-md-4">
+          <input id="filebutton" name="filebutton" class="input-file" type="file">
+        </div>
+      </div>
+      
+      <!-- Multiple Radios (inline) -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="anser">Should we get back to you?</label>
+        <div class="col-md-4"> 
+          <label class="radio-inline" for="anser-0">
+            <input type="radio" name="anser" id="anser-0" value="1" checked="checked">
+            no
+          </label> 
+          <label class="radio-inline" for="anser-1">
+            <input type="radio" name="anser" id="anser-1" value="2">
+            no
+          </label>
+        </div>
+      </div>
+      
+      <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="singlebutton">Send</label>
+        <div class="col-md-4">
+          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Delete</button>
+        </div>
+      </div>
+      
+      </fieldset>
+      </form>
+  </body>
+</html>
+
